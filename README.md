@@ -1,0 +1,2 @@
+# SandboxVuexTest
+Created with CodeSandbox
