@@ -1,20 +1,17 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>{{titre}}</h2>
-    
+    <h2>{{titre}}</h2>    
   </div>
 </template>
 
 <script>
 export default {
   name: "HelloWorld",
-  data() {
-    return {
-      msg: "Welcome to Your Vue.js App",
-      titre: "Allo toi",
-    };
-  }
+  data: () => ({
+    msg: "Welcome to Your Vue.js App",
+      titre: "Allo toi"
+  })
 };
 </script>
 
@@ -34,5 +31,13 @@ li {
 }
 a {
   color: #42b983;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

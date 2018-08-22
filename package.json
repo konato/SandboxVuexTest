@@ -16,6 +16,7 @@
     "banshee-ui": "0.0.2",
     "bootstrap-vue": "2.0.0-rc.11",
     "vue": "^2.5.2",
+    "vue-router": "3.0.1",
     "vuex": "3.0.1",
     "vuexfire": "2.3.1"
   },
